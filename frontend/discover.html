@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover - CampusMart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body class="discover-page">
+
+    <!-- Sidebar -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>Campus</span>Mart
+        </div>
+
+        <nav>
+
+            <a href="index.html">
+                <i class="ri-home-5-line"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="discover.html" class="active">
+                <i class="ri-fire-line"></i>
+                <span>Discover</span>
+            </a>
+
+            <a href="sell.html">
+                <i class="ri-add-circle-line"></i>
+                <span>Sell</span>
+            </a>
+
+            <a href="wishlist.html">
+                <i class="ri-heart-3-line"></i>
+                <span>Wishlist</span>
+            </a>
+
+            <a href="profile.html">
+                <i class="ri-user-3-line"></i>
+                <span>Profile</span>
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+
+    <main>
+
+        <section class="swipe-section">
+
+            <p class="small-text">DISCOVER</p>
+
+            <h1>Find something you like?</h1>
+
+            <p class="swipe-description">
+                Swipe through items listed by students on campus.
+            </p>
+
+
+            <!-- Swipe Area -->
+
+            <div class="swipe-container">
+
+                <!-- Left Arrow -->
+
+                <button
+                    class="arrow-btn left-arrow"
+                    id="leftArrow"
+                    aria-label="Swipe left"
+                >
+                    <i class="ri-arrow-left-line"></i>
+                </button>
+
+
+                <!-- Product Card -->
+
+                <div class="swipe-card" id="swipeCard">
+
+                    <!-- Product Image -->
+
+                    <div class="swipe-image">
+
+                        <img
+                            id="productImage"
+                            src="images/calculator.jpg"
+                            alt="Scientific Calculator"
+                        >
+
+                        <span id="productCategory">
+                            Electronics
+                        </span>
+
+                    </div>
+
+
+                    <!-- Product Information -->
+
+                    <div class="swipe-info">
+
+                        <div>
+
+                            <h3 id="productName">
+                                Scientific Calculator
+                            </h3>
+
+                            <p id="productPrice">
+                                ₹450
+                            </p>
+
+                        </div>
+
+                        <span
+                            class="condition"
+                            id="productCondition"
+                        >
+                            Good condition
+                        </span>
+
+                    </div>
+
+
+                    <!-- Like / Dislike Buttons -->
+
+                    <div class="swipe-actions">
+
+                        <button
+                            class="dislike-btn"
+                            aria-label="Dislike"
+                        >
+                            <i class="ri-close-line"></i>
+                        </button>
+
+                        <button
+                            class="like-btn"
+                            aria-label="Like"
+                        >
+                            <i class="ri-heart-line"></i>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Right Arrow -->
+
+                <button
+                    class="arrow-btn right-arrow"
+                    id="rightArrow"
+                    aria-label="Swipe right"
+                >
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product - CampusMart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>Campus</span>Mart
+    </div>
+
+    <nav>
+
+        <a href="index.html">
+            <i class="ri-home-5-line"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="discover.html">
+            <i class="ri-fire-line"></i>
+            <span>Discover</span>
+        </a>
+
+        <a href="sell.html">
+            <i class="ri-add-circle-line"></i>
+            <span>Sell</span>
+        </a>
+
+        <a href="wishlist.html">
+            <i class="ri-heart-3-line"></i>
+            <span>Wishlist</span>
+        </a>
+
+        <a href="profile.html">
+            <i class="ri-user-3-line"></i>
+            <span>Profile</span>
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="product-detail">
+
+        <a href="index.html" class="back-link">
+            <i class="ri-arrow-left-line"></i>
+            Back
+        </a>
+
+
+        <div class="product-detail-layout">
+
+            <!-- PRODUCT PHOTOS -->
+
+            <div class="product-gallery">
+
+                <div class="main-product-image">
+
+                    <img
+                        id="detailImage"
+                        src="images/math-book.jpg"
+                        alt="Product"
+                    >
+
+                </div>
+
+
+                <div class="product-thumbnails">
+
+    <button class="thumbnail active">
+        <img
+            src="images/math-book.jpg"
+            alt="Product photo 1"
+        >
+    </button>
+
+    <button class="thumbnail">
+        <img
+            src="images/headphones.jpg"
+            alt="Product photo 2"
+        >
+    </button>
+
+    <button class="thumbnail">
+        <img
+            src="images/study-table.jpg"
+            alt="Product photo 3"
+        >
+    </button>
+
+</div>
+
+            </div>
+
+
+            <!-- PRODUCT INFORMATION -->
+
+            <div class="product-detail-info">
+
+                <span
+                    class="detail-category"
+                    id="detailCategory"
+                >
+                    Books
+                </span>
+
+
+                <h1 id="detailName">
+                    Engineering Mathematics Book
+                </h1>
+
+
+                <div class="detail-price-row">
+
+                    <p
+                        class="detail-price"
+                        id="detailPrice"
+                    >
+                        ₹250
+                    </p>
+
+                    <span
+                        class="detail-condition"
+                        id="detailCondition"
+                    >
+                        Good condition
+                    </span>
+
+                </div>
+
+
+                <div class="detail-divider"></div>
+
+
+                <div class="detail-section">
+
+                    <h3>Description</h3>
+
+                    <p class="detail-description">
+                        Engineering mathematics book suitable for
+                        college students. Good condition and useful
+                        for exam preparation.
+                    </p>
+
+                </div>
+
+
+                <div class="seller-info">
+
+                    <div class="seller-avatar">
+                        <i class="ri-user-line"></i>
+                    </div>
+
+                    <div>
+                        <p class="seller-label">SELLER</p>
+                        <p class="seller-name">
+                            Campus Student
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="detail-actions">
+
+                    <button class="detail-wishlist">
+                        <i class="ri-heart-line"></i>
+                        Wishlist
+                    </button>
+
+                    <button class="contact-seller" id="contactSeller">
+                       Contact Seller
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

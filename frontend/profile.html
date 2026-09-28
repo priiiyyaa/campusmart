@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile - CampusMart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>Campus</span>Mart
+        </div>
+
+        <nav>
+
+            <a href="index.html">
+                <i class="ri-home-5-line"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="discover.html">
+                <i class="ri-fire-line"></i>
+                <span>Discover</span>
+            </a>
+
+            <a href="sell.html">
+                <i class="ri-add-circle-line"></i>
+                <span>Sell</span>
+            </a>
+
+            <a href="wishlist.html">
+                <i class="ri-heart-3-line"></i>
+                <span>Wishlist</span>
+            </a>
+
+            <a href="profile.html" class="active">
+                <i class="ri-user-3-line"></i>
+                <span>Profile</span>
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="profile-section">
+
+            <p class="small-text">YOUR PROFILE</p>
+
+            <div class="profile-header">
+
+                <div class="profile-avatar">
+                    <i class="ri-user-3-line"></i>
+                </div>
+
+                <div class="profile-details">
+
+                    <h1>Priya Rani</h1>
+
+                    <p>priya@example.com</p>
+
+                    <span>Student ID: GBU2023XXX</span>
+
+                </div>
+
+                <button class="edit-profile">
+                    <i class="ri-edit-line"></i>
+                    Edit Profile
+                </button>
+
+            </div>
+
+
+            <div class="profile-info">
+
+                <div class="info-item">
+                    <span>Department</span>
+                    <strong>Computer Science & Engineering</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Year</span>
+                    <strong>Final Year</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Location</span>
+                    <strong>Gautam Buddha University</strong>
+                </div>
+
+            </div>
+
+
+            <div class="profile-stats">
+
+                <div class="stat-card">
+                    <i class="ri-shopping-bag-3-line"></i>
+                    <strong>0</strong>
+                    <span>My Listings</span>
+                </div>
+
+                <div class="stat-card">
+                    <i class="ri-heart-3-line"></i>
+                    <strong>3</strong>
+                    <span>Saved Items</span>
+                </div>
+
+                <div class="stat-card">
+                    <i class="ri-exchange-2-line"></i>
+                    <strong>0</strong>
+                    <span>Items Sold</span>
+                </div>
+
+            </div>
+
+
+            <section class="my-listings">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="small-text">YOUR ITEMS</p>
+                        <h2>My Listings</h2>
+                    </div>
+
+                    <a href="sell.html">Sell an item</a>
+
+                </div>
+
+                <div class="empty-listings">
+
+                    <i class="ri-shopping-bag-3-line"></i>
+
+                    <h3>No listings yet</h3>
+
+                    <p>
+                        Items you list for sale will appear here.
+                    </p>
+
+                    <a href="sell.html">
+                        List your first item
+                    </a>
+
+                </div>
+
+                <button class="logout-button" id="logoutButton">
+                   <i class="ri-logout-box-r-line"></i>
+                    Logout
+                </button>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

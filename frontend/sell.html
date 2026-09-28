@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sell - CampusMart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>Campus</span>Mart
+        </div>
+
+        <nav>
+
+            <a href="index.html">
+                <i class="ri-home-5-line"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="discover.html">
+                <i class="ri-fire-line"></i>
+                <span>Discover</span>
+            </a>
+
+            <a href="sell.html" class="active">
+                <i class="ri-add-circle-line"></i>
+                <span>Sell</span>
+            </a>
+
+            <a href="wishlist.html">
+                <i class="ri-heart-3-line"></i>
+                <span>Wishlist</span>
+            </a>
+
+            <a href="profile.html">
+                <i class="ri-user-3-line"></i>
+                <span>Profile</span>
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="sell-section">
+
+            <p class="small-text">SELL AN ITEM</p>
+
+            <h1>List something on CampusMart.</h1>
+
+            <p class="sell-description">
+                Give your unused items a new home on campus.
+            </p>
+
+
+            <form class="sell-form" id="sellForm">
+
+                <div class="form-group">
+                    <label for="title">Item Title</label>
+
+                    <input
+                        type="text"
+                        id="title"
+                        placeholder="e.g. Engineering Mathematics Book"
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+
+                    <textarea
+                        id="description"
+                        placeholder="Tell students a little about your item..."
+                    ></textarea>
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="price">Price</label>
+
+                        <div class="price-input">
+                            <span>₹</span>
+                            <input
+                              type="number"
+                              id="price"
+                             placeholder="Enter price"
+                            >
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="category">Category</label>
+
+                        <select id="category">
+
+                            <option value="">Select category</option>
+                            <option value="books">Books</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="clothing">Clothing</option>
+                            <option value="notes">Notes</option>
+                            <option value="furniture">Furniture</option>
+                            <option value="others">Others</option>
+
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="condition">Condition</label>
+
+                    <select id="condition">
+
+                        <option value="">Select condition</option>
+                        <option value="new">New</option>
+                        <option value="like-new">Like New</option>
+                        <option value="good">Good</option>
+                        <option value="used">Used</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="location">Location</label>
+
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="e.g. Gautam Buddha University"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+    <label for="images">Item Photos</label>
+
+    <input
+        type="file"
+        id="images"
+        accept="image/*"
+        multiple
+    >
+
+    <p class="file-hint">
+        Add up to 5 photos of your item.
+    </p>
+
+    <div id="imagePreview" class="image-preview"></div>
+
+</div>
+
+
+                <button type="submit" class="sell-button">
+                    <i class="ri-add-line"></i>
+                    List Item
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

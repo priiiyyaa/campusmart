@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusMart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>Campus</span>Mart
+        </div>
+
+        <nav>
+
+            <a href="index.html" class="active">
+                <i class="ri-home-5-line"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="discover.html">
+                <i class="ri-fire-line"></i>
+                <span>Discover</span>
+            </a>
+
+            <a href="sell.html">
+                <i class="ri-add-circle-line"></i>
+                <span>Sell</span>
+            </a>
+
+            <a href="wishlist.html">
+                <i class="ri-heart-3-line"></i>
+                <span>Wishlist</span>
+            </a>
+
+            <a href="profile.html">
+                <i class="ri-user-3-line"></i>
+                <span>Profile</span>
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="welcome-section">
+
+            <p class="small-text">
+                YOUR CAMPUS MARKETPLACE
+            </p>
+
+            <h1>
+                Find what you need.<br>
+                Sell what you don't.
+            </h1>
+
+            <p class="welcome-text">
+                Buy, sell, exchange and discover items from students around you.
+            </p>
+
+
+            <!-- SEARCH -->
+
+            <div class="search-box">
+
+                <i class="ri-search-line"></i>
+
+                <input
+                    type="text"
+                    placeholder="Search for books, electronics, furniture..."
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- CATEGORIES -->
+
+        <section class="categories-section">
+
+            <h2>Browse Categories</h2>
+
+            <div class="category-list">
+                <button data-category="All" class="active-category">
+    <i class="ri-apps-line"></i>
+    All
+</button>
+
+    <button data-category="Books">
+        <i class="ri-book-open-line"></i>
+        Books
+    </button>
+
+    <button data-category="Electronics">
+        <i class="ri-smartphone-line"></i>
+        Electronics
+    </button>
+
+    <button data-category="Clothing">
+        <i class="ri-t-shirt-line"></i>
+        Clothing
+    </button>
+
+    <button data-category="Notes">
+        <i class="ri-file-text-line"></i>
+        Notes
+    </button>
+
+    <button data-category="Furniture">
+        <i class="ri-table-line"></i>
+        Furniture
+    </button>
+
+    <button data-category="Others">
+        <i class="ri-more-line"></i>
+        Others
+    </button>
+</div>
+
+        </section>
+
+
+        <!-- RECOMMENDED PRODUCTS -->
+
+        <section class="products-section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="small-text">
+                        JUST FOR YOU
+                    </p>
+
+                    <h2>
+                        Recommended for You
+                    </h2>
+
+                </div>
+
+                <a href="discover.html">
+                    View all →
+                </a>
+
+            </div>
+
+
+            <div class="product-list">
+
+
+                <!-- PRODUCT 1 -->
+
+                <a href="product.html?id=math-book" class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/math-book.jpg"
+                            alt="Engineering Mathematics Book"
+                        >
+
+                        <span class="product-category">
+                            Books
+                        </span>
+
+                        <button class="product-heart" aria-label="Add to wishlist">
+                            <i class="ri-heart-line"></i>
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <h3>
+                            Engineering Mathematics Book
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <p class="product-price">
+                                ₹250
+                            </p>
+
+                            <p class="product-condition">
+                                Good condition
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- PRODUCT 2 -->
+
+                <a href="product.html?id=headphones" class="product-card">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/headphones.jpg"
+                            alt="Wireless Headphones"
+                        >
+
+                        <span class="product-category">
+                            Electronics
+                        </span>
+
+                        <button class="product-heart" aria-label="Add to wishlist">
+                            <i class="ri-heart-line"></i>
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <h3>
+                            Wireless Headphones
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <p class="product-price">
+                                ₹800
+                            </p>
+
+                            <p class="product-condition">
+                                Like new
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- PRODUCT 3 -->
+
+                <a href="product.html?id=study-table" class="product-card">
+                    <div class="product-image">
+
+                        <img
+                            src="images/study-table.jpg"
+                            alt="Study Table"
+                        >
+
+                        <span class="product-category">
+                            Furniture
+                        </span>
+
+                        <button class="product-heart" aria-label="Add to wishlist">
+                            <i class="ri-heart-line"></i>
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <h3>
+                            Study Table
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <p class="product-price">
+                                ₹1,200
+                            </p>
+
+                            <p class="product-condition">
+                                Used
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
